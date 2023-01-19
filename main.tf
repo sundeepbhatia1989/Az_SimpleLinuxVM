@@ -26,7 +26,7 @@ resource "azurerm_resource_group" "myterraformgroup" {
         environment = "Terraform Demo"
     }
 }
-
+/*
 # Create virtual network
 resource "azurerm_virtual_network" "myterraformnetwork" {
     name                = "myVnet"
@@ -178,7 +178,7 @@ resource "azurerm_linux_virtual_machine" "myterraformvm" {
     }
 }
 
-
+*/
 /*Some important commands and links
 TF installed
 https://www.coachdevops.com/2019/02/install-terraform-on-ubuntu.html?showComment=1633368887176
