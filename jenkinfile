@@ -1,0 +1,23 @@
+pipeline {
+    agent any
+    tools {
+       terraform 'Terraform-prajwal'
+    } 
+    stages {
+        stage('Git Checkout') {
+            steps {
+                git branch: 'XXXXXXXXX', url: 'XXXXXXXXXXXXXXXXXXXXXXXX'
+            }
+        }
+        stage('Terraform Init') {
+            steps {
+                sh 'terraform init'
+            }
+        }
+        stage('Terraform plan'){
+            steps {
+                sh 'terraform plan'
+            }
+        }
+    }
+}
