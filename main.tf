@@ -128,7 +128,7 @@ resource "azurerm_storage_account" "mystorageaccount" {
         environment = "Terraform Demo"
     }
 }
-*/
+
 # Create (and display) an SSH key
 resource "tls_private_key" "example_ssh" {
   algorithm = "RSA"
@@ -177,6 +177,8 @@ resource "azurerm_linux_virtual_machine" "myterraformvm" {
         environment = "Terraform Demo"
     }
 }
+
+*/
 
 */
 /*Some important commands and links
