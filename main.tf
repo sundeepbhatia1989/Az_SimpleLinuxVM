@@ -173,11 +173,12 @@ resource "azurerm_linux_virtual_machine" "myterraformvm" {
         storage_account_uri = azurerm_storage_account.mystorageaccount.primary_blob_endpoint
     }
 */
+*/
     tags = {
         environment = "Terraform Demo"
     }
 }
-
+*/
 */
 
 */
