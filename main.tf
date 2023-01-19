@@ -167,7 +167,7 @@ resource "azurerm_linux_virtual_machine" "myterraformvm" {
 
     admin_ssh_key {
         username       = "azureuser"
-        public_key     = file("~/.ssh/id_rsa.pub")
+        public_key     = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCni2SciforQ6fmAWtJpQnPMcS9ok/pXajUPY7x2iidBho/1uL2C+2hGY3vmo+zzA2JUsP8tRPiK1NBS+Zyry9aDforg2uHwpYJjrCXd77iAkqP0fDO8YF3qlyjFRVrWQXzLe3hDUEfKOnM9j+aFktWGu+MsmVcGx1FkosJaLhY5Jdf6tRWI4r7dxpZAZnXkcNAZneWZk6MHJd6ReZ6qqTWVv1jQyD1N3ZKXYG8Xlm1gew76hZeJtrkks8CqU23ZILFb1rdIKyorSj2LSY76ejWnHeMzGUd+BXDuWodeBtmHjP+eRcGp+zcFppwkRH4d9bWdv2za7hIpGVoVVOrHrnMfmW1GS5knyoIqE7iz4jw21fTtllvNLxTfG8h7RQtHYHSrPMtP4jDi3bGhKcQEwL/cSxR+DLknbMtShhdC06Nxvce9rRUnadk9UHH0x6+yPxauoleLK9CjADgV8WtQizKXuE3UII3KQCOaMU7SSZPIa66qJmaqYLEsFfW93aiK3U= ubuntu@ubuntu-VirtualBox"
     }
 /*
     boot_diagnostics {
